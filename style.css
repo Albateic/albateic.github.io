@@ -23,5 +23,5 @@ body {
   background-size: 200% 200%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: 6s ease infinite;
+  animation: gradient 6s ease infinite;
 }
