@@ -1,14 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap');
 
 @keyframes gradient {
-     0% {
+     from {
 	background-position: 50% 0%;
 	}
-     50% {
+     to {
 	background-position: 50% 100%;
-	}
-     100% {
-	background-position: 50% 0%;
 	}
 }
 
@@ -19,9 +16,10 @@ body {
 
 .title {
   font-size: 7vw;
-  background: -webkit-linear-gradient(#2fed42, #11f57f, #0bb8e6, #0a61bf);
+  background: -webkit-linear-gradient(#f21313, #f2620f, #eef51b, #2fed42, #0bb8e6, #0a61bf);
   background-size: 200% 200%;
+  background-position: 50% 100%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: gradient 6s ease infinite;
+  animation: gradient 6s;
 }
