@@ -1,9 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap');
 
+@keyframes TitleAnim {
+from {
+    background: -webkit-linear-gradient(to right, #ff1414, #d94814);
+   }
+to {
+    background: -webkit-linear-gradient(to right, #0bb8e6, #0a61bf);
+   }
+}
+
 body {
   font-family: DM Mono;
+  background: -webkit-linear-gradient(#191921, #222327);
 }
 
 .title {
   font-size: 7vw;
+  background: -webkit-linear-gradient(to right, #0bb8e6, #0a61bf);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: TitleAnim 0.75s
 }
