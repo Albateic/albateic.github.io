@@ -2,7 +2,7 @@
 
 @keyframes TitleAnim {
 from {
-    background: -webkit-linear-gradient(#fcba03, #92c716);
+    background: -webkit-linear-gradient(#42f554, #0a61bf);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
    }
