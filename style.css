@@ -17,7 +17,7 @@ body {
 .title {
   font-size: 7vw;
   background: -webkit-linear-gradient(#f21313, #f2620f, #eef51b, #2fed42, #0bb8e6, #0a61bf);
-  background-size: 200% 200%;
+  background-size: 400% 400%;
   background-position: 50% 100%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
