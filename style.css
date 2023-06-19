@@ -11,7 +11,7 @@ to {
 
 body {
   font-family: DM Mono;
-  background: -webkit-linear-gradient(#191921, #222327);
+  background: linear-gradient(#191921, #222327);
 }
 
 .title {
