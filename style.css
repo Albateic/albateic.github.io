@@ -2,10 +2,10 @@
 
 @keyframes TitleAnim {
 from {
-    background: -webkit-linear-gradient(to right, #ff1414, #d94814);
+    background: -webkit-linear-gradient(#ff1414, #d94814);
    }
 to {
-    background: -webkit-linear-gradient(to right, #0bb8e6, #0a61bf);
+    background: -webkit-linear-gradient(#0bb8e6, #0a61bf);
    }
 }
 
