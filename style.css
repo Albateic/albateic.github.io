@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap');
 
-@keyframes TitleAnim {
-from {
-    background: -webkit-linear-gradient(#42f554, #0a61bf);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-   }
-to {
-    background: -webkit-linear-gradient(#0bb8e6, #0a61bf);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-   }
+@keyframes gradient {
+	0% {
+		background-position: 50% 0%;
+	}
+	50% {
+		background-position: 50% 100%;
+	}
+	100% {
+		background-position: 50% 0%;
+	}
 }
+
 
 body {
   font-family: DM Mono;
@@ -20,8 +20,9 @@ body {
 
 .title {
   font-size: 7vw;
-  background: -webkit-linear-gradient(#0bb8e6, #0a61bf);
+  background: -webkit-linear-gradient(#2fed42, #11f57f, #0bb8e6, #0a61bf);
+  background-size: 200% 200%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: TitleAnim 0.75s
+  animation: 6s ease infinite;
 }
