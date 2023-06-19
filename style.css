@@ -19,5 +19,4 @@ body {
   background: -webkit-linear-gradient(to right, #0bb8e6, #0a61bf);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: TitleAnim 0.75s
 }
