@@ -2,12 +2,14 @@
 
 @keyframes gradient {
      from {
+        opacity: 0;
 	background-position: 50% 0%;
 	font-size: 0vw;
 	}
      to {
 	background-position: 50% 100%;
 	font-size: 7vw;
+	opacity: 1;
 	}
 }
 
@@ -23,6 +25,6 @@ body {
   background-position: 50% 100%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: gradient 2s;
+  animation: gradient 1s;
   animation-timing-function: ease-out;
 }
