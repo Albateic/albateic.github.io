@@ -26,5 +26,4 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: gradient 1s;
-  animation-timing-function: ease-out;
 }
