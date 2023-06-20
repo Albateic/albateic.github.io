@@ -31,7 +31,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  background: white;
+  background: linear-gradient(#090910, #141416);
   box-shadow: 0 5px 0 rgba(0,0,0,.2);
   z-index: 10;
   width: 100%;
