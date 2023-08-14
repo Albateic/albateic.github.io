@@ -3,6 +3,9 @@ body {
 }
 
 .m-nav {
+  background-color: #f22;
+  color: #fff;
   width: 100%;
-  border-bottom: 3px solid gray;
+  margin: 0;
+  padding: 0;
 }
