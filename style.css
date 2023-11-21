@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Syne:wght@500&display=swap');
 
 body {
-  font-face: Syne;
+  font-family: Syne;
 }
 
 h1 {
-  font-face: Climate Crisis;
+  font-family: Climate Crisis;
 }
