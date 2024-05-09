@@ -2,17 +2,18 @@
 
 body {
   font-family: Poppins;
-  background: linear-gradient(135deg, #000000, #521217);
+  background: linear-gradient(135deg, #000, #521217);
 }
 
 .contentmain {
   width: 70%;
   height: fit-content;
   display: flex;
-  justify-contet: center;
+  justify-content: center;
 }
 
 .header {
-  font-size: 4rem;
-  text-align: center
+  font-size: 6rem;
+  text-align: center;
+  color: #fff;
 }
