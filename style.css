@@ -8,6 +8,7 @@ html {
 body {
   font-family: Poppins;
   background: linear-gradient(135deg, #000, #521217);
+  background-size: cover;
   color: white;
 }
 
@@ -24,6 +25,17 @@ body {
   text-align: center;
 }
 
+.th {
+  width: 700px;
+  height: fit-content;
+  margin: 15px;
+  margin-bottom: 0px;
+  padding: 30px;
+  background:rgba(0, 0, 0, 0.3);
+  border-radius: 50px;
+  color: white;
+}
+
 .link {
   color: white;
   text-decoration: none;
@@ -32,4 +44,23 @@ body {
 
 .link:hover {
   letter-spacing: 2px;
+}
+
+span.size-40 {
+  position: absolute;
+  color: white;
+  left: 0;
+  top: 0;
+  margin: 10px;
+  font-size: 40px;
+  transition-duration: 1s;
+  font-variation-settings: 'OPSZ' 40;
+}
+
+span.size-40:hover {
+  font-variation-settings: 'wght' 600;
+}
+
+h1 {
+  font-size: 26px !important;
 }
