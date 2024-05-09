@@ -8,4 +8,11 @@ body {
 .contentmain {
   width: 70%;
   height: fit-content;
+  display: flex;
+  justify-contet: center;
+}
+
+.header {
+  font-size: 4rem;
+  text-align: center
 }
