@@ -2,16 +2,34 @@
 
 html {
   height: 100%;
-  align-content:
+  align-content: center;
 }
 
 body {
   font-family: Poppins;
   background: linear-gradient(135deg, #000, #521217);
+  color: white;
 }
 
-.header {
-  font-size: 6rem;
+.footer {
+  height: 40px;
+  width: 100%;
+  width: fit-content;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 0;
+  left: 0;
+  right: 0;
   text-align: center;
-  color: #fff;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  transition: .5s;
+}
+
+.link:hover {
+  letter-spacing: 2px;
 }
