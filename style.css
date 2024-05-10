@@ -8,7 +8,7 @@ html {
 body {
   font-family: Poppins;
   background: linear-gradient(135deg, #000, #521217);
-  background-size: cover;
+  background-attachment: fixed;
   color: white;
 }
 
