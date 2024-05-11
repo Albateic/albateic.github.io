@@ -19,7 +19,7 @@ body {
   position: absolute;
   margin-left: auto;
   margin-right: auto;
-  top: 0;
+  top: 15;
   left: 0;
   right: 0;
   text-align: center;
@@ -45,21 +45,6 @@ body {
 
 .link:hover {
   letter-spacing: 2px;
-}
-
-span.size-40 {
-  position: absolute;
-  color: white;
-  left: 0;
-  top: 0;
-  margin: 10px;
-  font-size: 40px;
-  transition-duration: 1s;
-  font-variation-settings: 'OPSZ' 40;
-}
-
-span.size-40:hover {
-  font-variation-settings: 'wght' 600;
 }
 
 h1 {
