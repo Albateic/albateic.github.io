@@ -2,7 +2,6 @@
 
 html {
   height: 100%;
-  align-content: center;
 }
 
 body {
@@ -44,4 +43,12 @@ body {
 
 h1 {
   font-size: 26px !important;
+}
+
+.maincon {
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
