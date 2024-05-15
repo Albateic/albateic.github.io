@@ -9,6 +9,7 @@ body {
   background: linear-gradient(135deg, #e5ffa1, #ff6500, #881900, #2c140a);
   background-attachment: fixed;
   color: white;
+  font-weight: 300;
 }
 
 img {
@@ -52,6 +53,7 @@ img {
 h1 {
   font-size: 26px !important;
   margin: 0px;
+  font-weight: 500;
 }
 
 .maincon {
